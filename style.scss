@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "K2D";
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 600px;
+    height: 700px;
+    border-radius: 50px;
+    background-color: #222222;
+    border: 10px solid #828282;
+}
+
+.img {
+    background-image: url(./assets/Mask\ group.png);
+    background-repeat: no-repeat;
+    width: 472px;
+    height: 472px;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.t {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+
+.timeh,
+.timem,
+.times,
+.time {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.data {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.rectangle {
+    width: 230px;
+    height: 10px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 1px;
+}
