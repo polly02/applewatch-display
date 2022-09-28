@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "K2D";
   font-weight: 400;
+  font-style: normal;
 }
 
 .wrapper {
@@ -12,8 +13,7 @@
   background-color: #222222;
   border: 10px solid #828282;
 }
-
-.img {
+.wrapper .img {
   background-image: url(./assets/Mask\ group.png);
   background-repeat: no-repeat;
   width: 472px;
@@ -21,35 +21,19 @@
   margin: auto;
   margin-top: 14px;
 }
-
-.t {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.wrapper .clock {
   margin-top: 45px;
-  margin-left: 470px;
-}
-
-.timeh,
-.timem,
-.times,
-.time {
-  color: #FFFFFF;
+  margin-left: 440px;
   font-size: 30px;
-}
-
-.data {
-  font-size: 20px;
   color: #FFFFFF;
+}
+.wrapper .data {
+  font-size: 20px;
   text-align: center;
   margin-top: 16px;
+  color: #FFFFFF;
 }
-
-.rectangle {
+.wrapper .rectangle {
   width: 230px;
   height: 10px;
   background-color: #FFFFFF;
